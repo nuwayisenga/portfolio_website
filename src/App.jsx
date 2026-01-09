@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Mail, Github, Linkedin, ExternalLink, Menu, X, Code, GraduationCap } from 'lucide-react';
 
-export default function Portfolio() {
+export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const projects = [
@@ -87,11 +87,20 @@ export default function Portfolio() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6">
+    <section className="pt-32 pb-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center">
+            <div className="text-center">
+               {/* Add your profile image here */}
+                <div className="mb-8 flex justify-center">
+                <img 
+                src="/Headshot.jpg" 
+                alt="Noella Uwayisenga" 
+                className="w-48 h-48 rounded-full object-cover shadow-2xl border-4 border-purple-200"
+                />
+            </div>
+            
             <h2 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
-              Hi, I'm Noella
+                Hi, I'm Noella
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 mb-4">
               Computer Science Student & Software Engineer

@@ -43,7 +43,7 @@ export default function App() {
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+            <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
               Noella Uwayisenga
             </h1>
             
@@ -99,7 +99,7 @@ export default function App() {
                 />
             </div>
             
-            <h2 className="text-3xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-5xl font-bold mb-5 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
                 Hi, I'm Noella
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 mb-4">

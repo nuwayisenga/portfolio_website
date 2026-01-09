@@ -99,7 +99,7 @@ export default function App() {
                 />
             </div>
             
-            <h2 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
                 Hi, I'm Noella
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 mb-4">
